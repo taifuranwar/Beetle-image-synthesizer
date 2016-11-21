@@ -1,7 +1,7 @@
 beetle image synthesizer
 ----------------------
 
-In short this library synthesize image using vgg16 feature model set and dCNN to project the image correctly for main NN of Beetle application.
+This library synthesize image using vgg16 feature model set and dCNN to project the image correctly for main NN of Beetle application.
 
 
 This is image synthesizer library of beetle application. If you want to learn more about beetle application, click here.
