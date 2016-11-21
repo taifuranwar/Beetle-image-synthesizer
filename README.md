@@ -4,6 +4,7 @@ beetle image synthesizer
 This library synthesize image using vgg16 feature model set and dCNN to project the image correctly for main NN of Beetle application.
 
 
+
 This is image synthesizer library of beetle application. If you want to learn more about beetle application, click here.
 
 In short, it is an windows phone application that detect crop diseases. Put the infected leaf in a piece of white paper and use the application. Beetle will take an image of the leaf, send it to the server. The server then do the image processing and recognition with the existing database and detect the disease. 
@@ -13,6 +14,8 @@ One of the core problem we had while making Beetle is it was very hard to detect
 Beetle image synthesizer library solves this problems by extracting features of the image. It uses gaussian pyramid and feature vector of trained data, then it uses ANN ( Approximate nearest neighbour search ). The synthesis then proceeds from coarsest resolution to finest, computing a multiscale representation of output image. 
 
 We have used Markov random field (MRF) models and discriminatively trained deep convolutional neural networks (dCNNs) for synthesizing the images. This part of the project, along with patch matching and blending is inspired by arXiv's project Please refer to [this github project]( http://www.gitxiv.com/posts/DtC4Zwz3kqCDBHFD7/combining-markov-random-fields-and-convolutional-neural) for more information.
+
+![banner](https://raw.githubusercontent.com/taifuranwar/Beetle-image-synthesizer/master/images/banner.jpg)
 
 We have also used vgg16 model for feature map.Original file can be downloaded from  [this github project]( https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) 
 
