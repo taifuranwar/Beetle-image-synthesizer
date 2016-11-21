@@ -49,4 +49,4 @@ Example script usage:
 
 e.g.:
 
-`make_image_analogy.py images/arch-mask.jpg images/arch.jpg images/arch-newmask.jpg out/arch`
+`imageSynthesizer.py /home/saif/venv_1/images/sourceImages/1_image.jpg /home/saif/venv_1/images/sourceImages/1_mask.jpg /home/saif/venv_1/images/targetImageMasks/1_mask.jpg /home/saif/venv_1/out/arch --vgg-weights /home/saif/venv/vgg16_weights.h5`
